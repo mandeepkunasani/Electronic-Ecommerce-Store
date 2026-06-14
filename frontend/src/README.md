@@ -37,6 +37,19 @@ A full-stack Ecommerce Web Application built using the MERN Stack (MongoDB, Expr
 - Dark Theme Design
 - Contact Us Section
 
+## Key Features Implemented
+
+- User Authentication
+-  Product Search
+- Category Filtering
+- Wishlist Management
+- Shopping Cart
+-  Checkout System
+- Order History
+- Product Reviews
+-  Product Details Popup
+- Contact Information
+
 ## Tech Stack
 
 ### Frontend
