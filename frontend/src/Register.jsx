@@ -18,7 +18,7 @@ function Register() {
     async () => {
       const response =
         await fetch(
-          "http://localhost:5001/api/users/register",
+          "https://electronic-ecommerce-store.onrender.com/api/users/register",
           {
             method: "POST",
             headers: {
