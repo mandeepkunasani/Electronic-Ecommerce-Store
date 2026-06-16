@@ -10,7 +10,7 @@ function Login() {
 
   const loginUser = async () => {
     const response = await fetch(
-      "https://electronic-ecommerce-store.onrender.com/api/users/login",
+      "http://localhost:5001/api/users/login",
       {
         method: "POST",
         headers: {

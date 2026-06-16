@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
 });
 
 app.use("/api/products", require("./routes/productRoutes"));
-app.use("/api/users", userRoutes);
+app.use("/api/users", userRoutes);cors
 
 const PORT = process.env.PORT || 5001;
 

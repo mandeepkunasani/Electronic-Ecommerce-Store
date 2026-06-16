@@ -37,7 +37,7 @@ const [orders, setOrders] = useState(
 
 
   useEffect(() => {
-    fetch("https://electronic-ecommerce-store.onrender.com/api/products")
+    fetch("http://localhost:5001/api/products")
       .then((res) => res.json())
       .then((data) => setProducts(data))
       .catch((err) => console.log(err));
